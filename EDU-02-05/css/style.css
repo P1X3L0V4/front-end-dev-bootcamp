@@ -1,0 +1,16 @@
+body {
+    background: #222;
+    text-align: center;
+}
+
+#section {
+    width: 200px;
+    height: 150px;
+    //display: none;
+    background: #FFF;
+    margin: 40px auto 5px auto;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}

@@ -1,0 +1,35 @@
+body {
+    background: #222;
+    text-align: center;
+}
+
+#button {
+    margin-top: 40vh;
+}
+
+#maplink {
+    width: 200px;
+    height: 40px;
+    background: #FFF;
+    margin: 10px auto 5px auto;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 8px;
+    opacity: 0;
+}
+
+a {
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+i{
+    padding-right: 5px;
+}

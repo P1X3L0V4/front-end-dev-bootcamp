@@ -1,0 +1,68 @@
+body {
+    background: #222;
+    text-align: center;
+}
+
+#player {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+
+#controls {
+    width: 600px;
+    background: #5bc0de;
+    color: #FFF;
+    position: absolute;
+    top: 365px;
+    text-align: left;
+}
+
+#playpause {
+    float: left;
+    width: 30px;
+    padding: 7px 10px 5px 14px;
+}
+
+#time {
+    float: left;
+    padding: 8px 8px;
+    font-size: 13px;
+}
+
+#progress {
+    float: left;
+    width: 420px;
+    padding: 0px 14px;
+}
+
+#progressbar  {
+     -webkit-appearance: none;
+     background-color: #53b0cc; // #5bc0de;
+     width: 420px;
+     height: 26px;
+     margin-top: 5px;
+}
+
+#progressbar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #666;
+    width: 10px;
+    height: 26px;
+}
+
+#mute {
+    float: left;
+    padding: 5px 14px 5px 40px;
+}

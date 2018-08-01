@@ -1,0 +1,10 @@
+>> Jaka jest ró¿nica pomiêdzy tymi dwiema metodami?
+ngIf - element jest usuwany z drzewa DOM
+hidden - element jest ukrywany (dalej istnieje w DOM)
+
+>> Kiedy u¿ywamy której z nich?
+ngIf - do elementów, które wp³ywaj¹ na dzia³anie aplikacji (np komponenty)
+hidden - do ma³ych elementów nie wp³ywaj¹cych na obci¹¿enie aplikacji np. div z tekstem
+
+>> Jak mo¿na inaczej rozwi¹zaæ problemy, które powoduje pierwsza z nich?
+Mo¿emy zapisywaæ dane z aplikacji do zmiennych lub do pliku (js, json)

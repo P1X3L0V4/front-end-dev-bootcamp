@@ -1,0 +1,35 @@
+body {
+    background: #222;
+    text-align: center;
+}
+
+#container {
+    background-color: #FFF;
+    width: 60%;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#lista {
+    padding-top: 30px;
+    test-align: left;
+}
+
+a {
+    color: #FFF;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+button {
+    cursor: pointer;
+}

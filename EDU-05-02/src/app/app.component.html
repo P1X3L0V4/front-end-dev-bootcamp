@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col num">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" [(ngModel)]="f1"> Ukryj formularz 1
+        </label>
+    </div>
+    <div class="col num">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" [(ngModel)]="f2"> Ukryj formularz 2
+        </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" [hidden]="f1">
+      <form-1></form-1>
+    </div>
+    <div class="col" *ngIf="!f2">
+      <form-2></form-2>
+    </div>
+  </div>
+</div>

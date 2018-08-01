@@ -1,0 +1,20 @@
+body {
+    background: #222;
+    color: #222;
+    text-align: center;
+}
+
+#workflow {
+    background-color: #FFF;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h1 {
+   color: #222;
+}

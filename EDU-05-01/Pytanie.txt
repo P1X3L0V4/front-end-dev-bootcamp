@@ -1,0 +1,4 @@
+Kiedy lepiej u¿yæ ngClass i umieœciæ style w pliku CSS, a kiedy najlepsz¹ opcj¹ jest u¿ycie ngStyle.
+
+ngStyle - przy ma³o skomplikowanych wyra¿eniach CSS
+ngClass - przy wyra¿eniach warunkowych, przy koniecznoœci dodawania wiêcej ni¿ jednej klasy do danego elementu

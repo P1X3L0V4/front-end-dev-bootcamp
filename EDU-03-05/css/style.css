@@ -1,0 +1,62 @@
+body {
+    background: #222;
+    color: #222;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a, a:hover, a:visited, a:active {
+   color: #000;
+   text-decoration: none;
+}
+
+#convert {
+    background-color: #FFF;
+    height: 38px;
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -18px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#convert_txtinput {
+    height: 38px;
+    font-size: 11px;
+}
+
+#convert_text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+#select_btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#view {
+    text-align: right;
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 60px;
+    border-radius: 5px;
+    padding: 20px;
+    background: #FFF;
+}
+
+textarea {
+    font-size: 11px !important;
+}
